@@ -29,7 +29,7 @@ void setup() {
   Serial.begin(9600);
 
   // Connect to the Blynk server
-  Blynk.begin(auth, "realme 7", "yashaswi");
+  Blynk.begin(auth, "realme 7", "anant");
 
   // Set the buzzer pin and pulse sensor pin as outputs
   pinMode(BUZZER_PIN, OUTPUT);
